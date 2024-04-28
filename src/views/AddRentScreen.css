@@ -1,0 +1,52 @@
+.rent-modal{
+    width: 60vw;
+}
+
+.rent-modal-title{
+    border-bottom: #b6b6b6 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rent-modal-title h3{
+    margin: 0;
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+.rent-modal-title button{
+    border: none;
+    background-color: transparent;
+}
+
+.button-cancel, .button-save{
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    width: 70px;
+    height: 30px;
+    font-size: 13px;
+    color: #464646;
+    margin: 0 0 0 5px;
+}
+
+.button-save{
+    background-color: #1890ff;
+    color: white;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+}
+
+.parts-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.fields-container,
+.map-container{
+    flex: 1;
+    margin: 10px;
+}

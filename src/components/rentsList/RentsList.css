@@ -1,0 +1,13 @@
+.scrollable-list {
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 2px;
+    flex-direction: column;
+    max-height: 92vh;
+}
+
+.list-item {
+    /*padding: 8px;*/
+    /*border-bottom: 1px solid #eee;*/
+}

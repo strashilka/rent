@@ -1,0 +1,9 @@
+.required-field{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.required-field span{
+    color: red;
+}

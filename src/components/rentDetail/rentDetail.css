@@ -1,0 +1,19 @@
+.detail-container{
+    width: 75vw;
+    flex: 1;
+    justify-content: center;
+}
+
+.rent-detail-info{
+    margin: 0 10px;
+}
+
+.detail-image{
+    width: 50%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,12 @@
+.center_marker{
+    display: flex;
+    flex-direction: column;
+}
+
+.marker_text{
+    background-color: red;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,80 @@
+.rent-item-container{
+    display: inline-block;
+    width: 90%;
+    min-width: 200px;
+    max-width: 350px;
+    margin: 15px;
+}
+
+.rent-item-container-border{
+    cursor: pointer;
+}
+.rent-image {
+    width: 100%;
+    height: 0;
+    padding-bottom: 65%;
+    position: relative;
+    overflow: hidden;
+}
+
+.rent-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.selected-rent{
+    border: 2px solid #354388;
+}
+
+.add-rent-container{
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    /*align-items: center;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+}
+
+.add-rent-button{
+    border: none;
+    cursor: pointer;
+    background-color: #dedede;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+}
+
+.plus-icon{
+    display: inline;
+    width: 14px;
+    height: 14px;
+}
+
+.add-rent-text{
+    margin: 0;
+    display: inline;
+    font-weight: bold;
+}
+.rent-item-text-container{
+    padding: 0px;
+}
+
+.rent-item-title{
+    font-weight: bold;
+}
+.rent-item-info, .rent-item-title{
+    margin: 0;
+    font-size: 14px;
+    color: #4a4a4a;
+    text-align: left;
+}
+
+.trip-item-period{
+    margin: 15px 0 0;
+    font-size: 12px;
+    color: #a9a9a9;
+}
