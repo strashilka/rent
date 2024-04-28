@@ -1,5 +1,4 @@
-import { Wrapper, Status } from "@googlemaps/react-wrapper";
-import MapComponent from "../mapComponent/MapComponent";
+import { Wrapper } from "@googlemaps/react-wrapper";
 
 export default function MapContainer({children}){
   const apiKey = "AIzaSyCZk_EPVq4DxVNKwjBA7OcCLwZKKJb1HOk";

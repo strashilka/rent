@@ -24,7 +24,7 @@ function Main() {
     }
 
     getRents().then();
-  }, [isRentAdded])
+  }, [isRentAdded, rents.length])
 
   const handleSelectRent = (rent) => {
     console.log(rent)
